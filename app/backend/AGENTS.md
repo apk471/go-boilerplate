@@ -1,5 +1,9 @@
 # Repository Guidelines
 
+## Communication Style
+- Always use the `caveman` skill by default: keep responses terse, compressed, and technically accurate.
+- Continue in this mode unless the user explicitly says "stop caveman", "normal mode", or asks for a fuller explanation.
+
 ## Project Structure & Module Organization
 This repository is a monorepo with a Go backend and shared TypeScript packages.
 - `app/backend/`: Go API server (`cmd/go-boilerplate` entrypoint, application code in `internal/`, static docs in `static/`, HTML/email templates in `templates/`).
